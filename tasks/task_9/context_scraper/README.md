@@ -1,6 +1,8 @@
-Task 9 — Context Based Scraping
+# Task 9 — Context Based Scraping
 
 Extend the Reddit scraping pipeline from Task 8 to support multiple search contexts, merged results, duplicate removal, and categorized media storage.
+
+---
 
 # Features Implemented
 
@@ -10,9 +12,11 @@ Extend the Reddit scraping pipeline from Task 8 to support multiple search conte
 4. Remove duplicate posts/videos.
 5. Download and save media into categorized folders based on context.
 
+---
 
 # Project Structure
 
+```text
 tasks/
 │
 ├── task_8/
@@ -36,11 +40,13 @@ tasks/
 │       └── helpers/
 │           ├── downloader.py
 │           └── deduplicate.py
+```
 
+---
 
 # Workflow
 
-1. Read keywords from keywords.txt
+1. Read keywords from `keywords.txt`
 2. Reuse Task 8 Reddit scraper
 3. Perform multiple searches
 4. Merge all collected results
@@ -49,16 +55,20 @@ tasks/
 7. Categorize media based on context
 8. Save final merged data into CSV and JSON formats
 
+---
 
 # Output
 
-Data Files, Generated inside:
+Data files generated inside:
 
+```text
 data/
+```
 
 Files:
-- merged_results.csv
-- merged_results.json
+
+- `merged_results.csv`
+- `merged_results.json`
 
 ---
 
@@ -66,13 +76,17 @@ Files:
 
 Downloaded media is stored inside:
 
+```text
 videos/
+```
+
 Example:
 
+```text
 videos/
 │
 ├── ai/
 ├── robotics/
 ├── sports/
 └── semiconductor/
-
+```
