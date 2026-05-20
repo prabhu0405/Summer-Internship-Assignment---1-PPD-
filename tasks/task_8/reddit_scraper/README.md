@@ -55,8 +55,3 @@ The scraper saves collected Reddit data into:
 
 ---
 
-## How to Run
-
-```bash
-python main.py
-```
