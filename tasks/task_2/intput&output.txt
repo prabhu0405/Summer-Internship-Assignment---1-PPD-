@@ -1,0 +1,5 @@
+Input:
+text_file
+
+Output:
+log_summary.json

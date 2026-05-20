@@ -1,0 +1,4 @@
+INFO User logged in 
+ERROR Database timeout 
+WARNING Memory usage high 
+ERROR Invalid credentials 

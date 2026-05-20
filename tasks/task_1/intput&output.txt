@@ -1,0 +1,13 @@
+Input:
+Enter integers separated by space: 1 2 5 7 3 5 8 34
+
+Output:
+--- Final Output ---
+Unique Sorted List:
+[1, 2, 3, 5, 7, 8, 34]
+
+Statistics:
+Maximum Value: 34
+Minimum Value: 1
+Average Value: 8.12
+Frequency: {1: 1, 2: 1, 5: 2, 7: 1, 3: 1, 8: 1, 34: 1}

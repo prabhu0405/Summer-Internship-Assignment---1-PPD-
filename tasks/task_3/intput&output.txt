@@ -1,0 +1,7 @@
+Input:
+Enter first number: 34
+Enter second number: 0
+
+Output:
+Result:
+Error: Division by zero is not allowed.

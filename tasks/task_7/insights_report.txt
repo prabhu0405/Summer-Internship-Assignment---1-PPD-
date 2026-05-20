@@ -1,0 +1,102 @@
+-------------------------------------------------------
+DIGITAL BURNOUT & PRODUCTIVITY ANALYTICS REPORT
+-------------------------------------------------------
+
+1. DATASET OVERVIEW
+----------------------------------------------------
+Rows: 5000000
+Columns: 44
+
+Columns Present:
+- user_id
+- age
+- daily_screen_time
+- social_media_hours
+- doomscrolling_duration
+- app_switch_frequency
+- notification_count
+- smartphone_unlocks
+- late_night_device_usage
+- focus_sessions
+- deep_work_hours
+- distraction_frequency
+- task_completion_rate
+- concentration_score
+- sleep_hours
+- sleep_quality
+- caffeine_intake
+- physical_activity
+- stress_level
+- workspace_quality
+- meeting_hours
+- internet_stability
+- remote_work_days
+- motivation_level
+- mental_fatigue
+- emotional_exhaustion
+- work_satisfaction
+- burnout_risk
+- productivity_score
+- occupation_Content Creator
+- occupation_Designer
+- occupation_Freelancer
+- occupation_Manager
+- occupation_Software Engineer
+- occupation_Student
+- work_mode_Office
+- work_mode_Remote
+- device_usage_type_Entertainment-Centric
+- device_usage_type_Work-Centric
+- mental_state_Burnout
+- mental_state_Distracted
+- mental_state_Focused
+- productivity_category_Low
+- productivity_category_Medium
+
+2. DATA QUALITY CHECK
+----------------------------------------------------
+No missing values found.
+
+Duplicate Rows: 0
+
+3. TARGET COLUMN SELECTED
+----------------------------------------------------
+Target Column Used: productivity_score
+
+4. MOST INFLUENTIAL FEATURES
+----------------------------------------------------
+Top Positive Influencers:
+- deep_work_hours positively affects productivity_score (Correlation: 0.55)
+- task_completion_rate positively affects productivity_score (Correlation: 0.36)
+- concentration_score positively affects productivity_score (Correlation: 0.35)
+- focus_sessions positively affects productivity_score (Correlation: 0.23)
+- motivation_level positively affects productivity_score (Correlation: 0.23)
+
+Top Negative Influencers:
+- meeting_hours negatively affects productivity_score (Correlation: -0.0)
+- user_id negatively affects productivity_score (Correlation: -0.0)
+- age negatively affects productivity_score (Correlation: -0.0)
+- notification_count negatively affects productivity_score (Correlation: -0.03)
+- distraction_frequency negatively affects productivity_score (Correlation: -0.05)
+
+5. TRENDS AND OBSERVATIONS
+----------------------------------------------------
+- Higher values of 'deep_work_hours' are strongly associated with increased 'productivity_score'.
+- 'task_completion_rate' shows moderate positive impact on 'productivity_score'.
+- 'concentration_score' shows moderate positive impact on 'productivity_score'.
+- 'burnout_risk' has moderate negative relationship with 'productivity_score'.
+
+6. HIGHLY CORRELATED FEATURES
+----------------------------------------------------
+No highly correlated features found.
+
+7. POSSIBLE ISSUES IN DATASET
+----------------------------------------------------
+- Correlation does not always imply causation.
+- Some patterns may be synthetic or artificially generated.
+- Extreme outliers may affect analysis results.
+
+8. FINAL CONCLUSION
+----------------------------------------------------
+The dataset analysis shows that 'productivity_score' is influenced by multiple behavioral and work-related factors. Correlation analysis identified the most impactful features affecting productivity or burnout. The dataset is useful for data analysis, visualization, and machine learning tasks related to workplace wellness.
+REPORT GENERATED SUCCESSFULLY
