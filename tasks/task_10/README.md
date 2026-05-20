@@ -59,12 +59,13 @@ Generated charts:
 
 # Folder Structure
 
+```text
 task_10/
-│
 ├── analysis.py
 ├── summary_report.txt
-├── charts/
-│   ├── keyword_distribution.png
-│   └── top_creators.png
+├── requirements.txt
 │
-└── requirements.txt
+└── charts/
+    ├── keyword_distribution.png
+    └── top_creators.png
+```
