@@ -1,7 +1,7 @@
 # Summer Internship Assignment - 1
 
 This repository contains solutions for all tasks given in the Summer Internship Assignment using Python 3.13.1
-Submitted By - P Padarabinda Dash
+- Submitted By - P Padarabinda Dash
 
 ---
 
